@@ -1,0 +1,29 @@
+
+.Border{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white ;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    /* margin-top:150px; */
+    margin-left: 470px;
+    margin-right: 470px;
+    text-align: center;
+    /* background-color: whitesmoke; */
+    align-items: center;
+    color: white;
+}
+.Back{
+    background-image: url("../../img/loginback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vm;
+    height: 100vh;
+   
+}
+
+.setcolo{
+    color:white !important;
+}
+

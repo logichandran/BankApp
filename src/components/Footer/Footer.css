@@ -1,0 +1,96 @@
+.footer_Back{
+    /* background-color: black; */
+    background-color:#0d1117;
+    /* color:white; */
+  color:azure;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.footer-a1{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer_a2{
+  background-color: black;
+  /* color:white; */
+  color:azure;
+  padding-bottom: 10px;
+}
+.footer_s1{
+    text-align: left;
+    
+    width: 25vw;
+}
+.footer_s2{
+    text-align: left;
+    width: 10vw;
+    
+}
+.footer_s3{
+    text-align: left;
+
+    width: 65vw;
+}
+
+.footer_box {
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    position: relative; /* Needed for absolute positioning of child elements */
+    /* background-color: white; */
+    background-color:azure;
+    overflow: hidden;
+}
+  
+.footer_text {
+position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  color: black;
+  white-space: nowrap;
+  animation: moveText 15s linear infinite;
+  padding-top: 20px;
+}
+@keyframes moveText {
+    0% {
+      transform: translate(100%, -50%);
+    }
+    100% {
+      transform: translate(-100%, -50%);
+    }
+}
+.footer_box h4
+{
+  font-size: 20px;
+}
+.footer_s1 h2 {
+  font-size: 25px;
+  color:#948c5c;
+}
+.footer_s1 h3 {
+  font-size: 25px;
+}
+.footer_s2 h3 {
+  font-size: 25px;
+  color:#948c5c;
+}
+.footer_s3 h3 {
+  font-size: 25px;
+  color:#948c5c;
+}
+.footer_a2 h3{
+  font-size: 22px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+

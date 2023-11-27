@@ -1,0 +1,52 @@
+.Table4
+{
+    margin-top: 10%;
+    margin-left: 40%;
+    /* height: 70%; */
+    width:25%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-left:13px ;
+    padding-right:15px ;
+    
+}
+.Table4 td{
+    padding-top: 12%;
+    color:black;
+    font-weight: bold;
+}
+.t4button{
+    margin-top: 15px;
+    margin-left: 90%;
+    background-color: gray;
+    margin-bottom: 15px;
+
+}
+.Table4 input{
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+}
+.main4
+{
+    width:100%;
+    height:100vh;
+    background-color:#948c5c;
+}
+.video4
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Table4{
+    position:absolute;
+    top:0;
+}
+/* .mmm
+{
+    position: absolute;
+    top:0;
+} */

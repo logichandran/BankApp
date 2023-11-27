@@ -1,0 +1,51 @@
+.Table2
+{
+    margin-top: 10%;
+    margin-left: 40%;
+    /* height: 70%; */
+    width:25%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-left:15px ;
+    
+}
+.Table2 td{
+    padding-top: 12%;
+    color:black;
+    font-weight: bold;
+}
+.t2button{
+    margin-top: 15px;
+    margin-left: 130%;
+    background-color: gray;
+    margin-bottom: 15px;
+
+}
+.Table2 input{
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    border-color: black;
+}
+.main2
+{
+    width:100%;
+    height:100vh;
+    background-color:#948c5c;
+}
+.video2
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Table2{
+    position:absolute;
+    top:0;
+}
+/* .mmm
+{
+    position: absolute;
+    top:0;
+} */

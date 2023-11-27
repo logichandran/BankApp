@@ -1,0 +1,22 @@
+.terms_back{
+    /* background-image: url("../../img/termsback.jpg"); */
+    background-image: url("../../img/foot1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.terms_border{
+    padding:5px;
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.terms_s{
+    text-align: left;
+}
+.terms_ul{
+    font-size: 25px;
+}
